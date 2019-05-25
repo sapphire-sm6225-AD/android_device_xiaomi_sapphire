@@ -48,9 +48,8 @@
         <value>180.32</value>
     </array>
     <item name="cpu.active">18.3</item>
-    <item name="cpu.idle">4.51</item>
-    <item name="cpu.suspend">0</item>
-    <item name="cpu.awake">42.86</item>
+    <item name="cpu.suspend">4.51</item>
+    <item name="cpu.idle">42.86</item>
     <item name="battery.capacity">5000</item>
     <item name="wifi.on">6.76</item>
     <item name="wifi.active">148</item>
