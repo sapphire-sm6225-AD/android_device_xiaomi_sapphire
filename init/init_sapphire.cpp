@@ -69,15 +69,15 @@ void load_redmi_sapphire() {
 }
 
 void load_redmi_sapphiren() {
-    property_override("bluetooth.device.default_name", "Redmi Note 13");
+    property_override("bluetooth.device.default_name", "Redmi Note 13 NFC");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "sapphiren");
     property_override("ro.product.manufacturer", "Xiaomi");
-    property_override("ro.product.marketname", "Redmi Note 13");
-    property_override("ro.product.model", "23129RAA4G");
+    property_override("ro.product.marketname", "Redmi Note 13 NFC");
+    property_override("ro.product.model", "23124RA7EO");
     property_override("ro.product.mod_device", "sapphiren_global");
     property_override("ro.product.name", "sapphiren_global");
-    property_override("vendor.usb.product_string", "Redmi Note 13");
+    property_override("vendor.usb.product_string", "Redmi Note 13 NFC");
 }
 
 void vendor_load_properties() {
