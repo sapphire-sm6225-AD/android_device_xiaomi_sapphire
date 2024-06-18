@@ -18,6 +18,6 @@ PRODUCT_NAME := lineage_sapphire
 PRODUCT_DEVICE := sapphire
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 13 4G
+PRODUCT_MODEL := Redmi Note 13
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
