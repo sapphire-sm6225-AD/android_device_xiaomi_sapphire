@@ -12,12 +12,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sapphire/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_sapphire
+PRODUCT_NAME := aosp_sapphire
 PRODUCT_DEVICE := sapphire
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 13
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+TARGET_CALL_RECORDING_SUPPORTED = true
+TARGET_BOOT_ANIMATION_RES = 1080
