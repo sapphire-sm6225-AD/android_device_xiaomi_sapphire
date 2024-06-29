@@ -1,4 +1,4 @@
-# Unpinned blobs from sapphire V816.0.2.0.UNGMIXM
+# Unpinned blobs from sapphire V816.0.4.0.UNGMIXM
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
