@@ -10,6 +10,9 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 # Inherit from the proprietary version
 include vendor/xiaomi/sapphire/BoardConfigVendor.mk
 
+# Inherit from proprietary files for miuicamera
+-include device/xiaomi/miuicamera-sapphire/BoardConfig.mk
+
 DEVICE_PATH := device/xiaomi/sapphire
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
