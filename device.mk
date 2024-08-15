@@ -26,7 +26,6 @@ TARGET_HAS_UDFPS := true
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureResSapphire \
     FrameworksResSapphire \
     SettingsProviderResSapphire \
     SettingsResSapphire \
